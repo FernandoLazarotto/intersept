@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário</title>
+</head>
+<body>
+     <section>
+        <div>
+            <img src="intersept.png" alt="">
+        </div>
+        <h2>Ficha de cadastro</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome/Razão Social</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>CNPJ/CPF</label>
+            <input type="cnpj/cpf" name="cnpj/cpf" placeholder="Digite seu cnpf ou cpf" autocomplete="off" required>
+            <label>RG</label>
+            <input type="RG" name="RG" placeholder="Digite seu RG" autocomplete="off" required>
+            <label>CPF do Responsável</label>
+            <input type="cpf responsavel" name="cpf responsavel" placeholder="Digite seu cpf caso seja empresa" autocomplete="off" required>
+            <label>Endereço de monitoramento</label>
+            <input type="endereço" name="endereço" placeholder="Digite seu endereço" autocomplete="off" required>
+            <label>Bairro</label>
+            <input type="bairro" name="bairro" placeholder="Digite seu bairro" autocomplete="off" required>
+            <label>Cidade</label>
+            <input type="cidade" name="cidade" placeholder="Digite sua cidade" autocomplete="off" required>         
+            <label>Celular</label>
+            <input type="celular" name="celular" placeholder="Digite seu celular" autocomplete="off" required>         
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Contato de emergência</label>
+            <input type="emergencia" name="emergencia" placeholder="Digite o contato de emergência" autocomplete="off" required>
+            <label>Celular </label>
+            <input type="celular2" name="celular2" placeholder="Digite o celular do contato de emergência" autocomplete="off" required>
+            <label>Contato de emergência 2</label>
+            <input type="emergencia2" name="emergencia2" placeholder="Digite o segundo contato de emergencia" autocomplete="off" required>
+            <label>Celular</label>
+            <input type="celular3" name="celular3" placeholder="Digite o celular do contato de emergência 2" autocomplete="off" required>
+            <label>Pergunta de segurança</label>
+            <input type="pergunta" name="pergunta" placeholder="Digite a pergunta de segurança" autocomplete="off" required>
+            <label>Resposta de segurança</label>
+            <input type="resposta" name="resposta" placeholder="Digite resposta de segurança" autocomplete="off" required>
+
+            
+           
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="bf6feee9-2da6-43c0-84f3-a6412a51da1d">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+    </section>
+    
+</body>
+</html>
